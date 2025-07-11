@@ -112,6 +112,7 @@ public class AdvanceRagTest {
                 .chatMemoryProvider(chatMemoryProvider)
                 .build();
         System.out.println(assistant.chat("3","查询一下 医生最近的登录情况,需要医生姓名和医院名称，只要yn=1的，它=1 是有效的意思，你不会联查一下吗，比如查询doctor表 它的id就是doctorid"));
+        // 测试一下
     }
 
 
